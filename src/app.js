@@ -36,6 +36,15 @@ app.get('/blog/:title?', function(req, res) {
 		}
 });
 
+// A REST API server serving JSON for front-end use
+app.get('/posts', function(req, res) {
+	if (req.query.raw) {
+		res.json(posts); // If localhost:3000/posts?raw=true
+	} else {
+		res.json(postList);
+	}
+})
+
 app.listen(3000, function() {
 	console.log("The frontend server is running on port 3000!")
 });
