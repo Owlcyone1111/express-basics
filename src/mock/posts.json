@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "I like to run!": {
     "title": "I like to run!",
@@ -12,3 +13,19 @@
     "description": "Fanny pack vinyl put a bird on it, small batch"
   }
 }
+=======
+{
+  "I like to run!": {
+    "title": "I like to run!",
+    "description": "Fanny pack vinyl put a bird on it, small batch"
+  },
+  "Crossfit is Cool": {
+    "title": "Crossfit is Cool",
+    "description": "Fanny pack vinyl put a bird on it, small batch"
+  },
+  "Swimming is great for the joints": {
+    "title": "Swimming is great for the joints",
+    "description": "Fanny pack vinyl put a bird on it, small batch"
+  }
+}
+>>>>>>> 843275eae5248f588a69135a1b71862247f1373d
